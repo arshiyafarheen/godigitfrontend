@@ -1,0 +1,114 @@
+.logincard {
+    width: 1000px;
+    height: auto;
+    padding-left: 60px ;
+    padding-right: 0px;
+    padding-top: 60px;
+    padding-bottom:40px;
+    background-color: #fff;
+    border-radius: 9px;
+    border: 1px solid rgba(46,91,255,.08);
+    box-shadow: 0 7px 28px 0 rgba(0,0,0,.08);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.logincard .logincardformheading {
+    padding-bottom: 40px;
+}
+.logincard .logincardformheading h1 {
+    font-size: 28px;
+    line-height: 32px;
+    color: #2e384d;
+    padding-bottom: 12px;
+    font-family: inherit;
+    font-weight: 500;
+    font:28px Rubik;
+
+}
+.logincard .logincardformheading label {
+    font-size: 15px;
+    line-height: 22px;
+    color: #8798ad;
+    font-weight: 100;
+    width: 319px;
+    margin: 0;
+    display: inline-block;
+    max-width: 100%;
+    cursor: default;
+    font-family: Rubik;
+    background-color: #fff;
+    text-align: left;
+}
+.form-group label {
+    text-transform: uppercase;
+    color: #b0bac9;
+    font-weight: 500;
+    letter-spacing: 1.13px;
+    line-height: 14px;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 12px;
+    padding-top:25px;
+}
+.form-group .form-control {
+    width: 285px;
+    border: 1px solid #e0e7ff;
+    border-radius: 5px;
+    background-color: rgba(224,231,255,.2);
+    padding: 18px 12px;
+    outline: 0!important;
+    box-shadow: none;
+    height:0px;
+    padding-top:20px;
+}
+
+.form-contol {
+     width: 285px;
+     height:0px;
+     display: block;
+     font-size: 14px;
+     line-height: 1.42857143;
+     color: #555;
+     background-clip: padding-box;
+     padding-top:30px;
+     padding-bottom: 20px;
+}
+.forgot-section {
+    color: #b0bac9;
+    text-decoration: none;
+    text-transform: capitalize;
+    float: right;
+    font-size: 15px;
+    margin-top: 11px;
+    margin-bottom: 20px;
+    font-weight: 400;
+   
+}
+.yellow-btn {
+    background-color: #fb0;
+    text-align: center;
+    color: #000;
+    display: inline-block;
+    min-width: 320px;
+    padding: 10px 8px;
+    font-weight: 500;
+    border-radius: 4px;
+    line-height: 21px;
+    outline: 0;
+    border: 1px solid #fb0;
+    font-size: 15px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex;
+}
+.login-image{
+    margin-right: 300px;
+    margin-top:50px;
+    margin-left: 100px;
+}
